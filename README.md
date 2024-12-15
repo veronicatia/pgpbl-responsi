@@ -32,7 +32,7 @@ Sumber data aplikasi ini berasal dari data pribadi yang dikumpulkan langsung dar
 Semua data yang dikumpulkan dilindungi dan digunakan hanya untuk tujuan aplikasi adopsi hewan peliharaan.
 
 ## Tangkapan Layar
-1. Home
+1. Home <br>
    <img src="https://github.com/user-attachments/assets/3d4ffd6c-fbae-4e70-8d8b-db8be0ebccd1" width="200" />
 2. Map
    <img src="https://github.com/user-attachments/assets/44c72600-f4c4-4913-ae51-7b2b0eb73b83" width="200" />
