@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native';  // Added StyleSheet import
 import React from 'react';
-import Listdata from '../../components/Listdata';
+import Listdata from '../../Listdata';
 
 function likes() {
     return (
