@@ -1,65 +1,158 @@
-import * as React from 'react';
-import { Text, View } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Profil from './App';
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faUser } from '@fortawesome/free-regular-svg-icons';
-import { faUserGraduate } from '@fortawesome/free-solid-svg-icons';
-import Mahasiswa from './Mahasiswa';
-import WebView from 'react-native-webview';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Tabs } from "expo-router";
+import { View, Text } from "react-native";
+import { Ionicons } from "@expo/vector-icons"; // Ensure you install @expo/vector-icons
 
-function HomeScreen() {
+export default function Layout() {
   return (
-    <Profil />
-  );
-}
-
-function DataMahasiswaScreen() {
-  return (
-      <Mahasiswa/>
-  );
-}
-function WebScreen() {
-  return (
-    <WebView
-    source={{ uri: 'https://github.com/veronicatia' }}
-  />
-  );
-}
-
-const Tab = createBottomTabNavigator();
-
-export default function App() {
-  return (
-    <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen name="Profil" component={HomeScreen}
-          options={{
-            headerShown: false,
-            tabBarIcon: ({ color }) => (
-              <FontAwesomeIcon icon={faUser} color={color} size={20} />
-            ),
-          }}
-        />
-        <Tab.Screen name="Mahasiswa" component={DataMahasiswaScreen} 
+    <Tabs
+    screenOptions={{
+      headerShown: false,
+      tabBarShowLabel: false,
+      tabBarStyle: {
+        position: "absolute",
+        bottom: 27,
+        left: 16, // Keeps the left margin as is
+        marginRight: 20, // Use marginRight instead of right to avoid stretching it too close to the right edge
+        marginLeft: 20,
+        height: 65,
+        width: 'auto', // Allow the width to be auto based on content
+        maxWidth: 400, // Optionally, set a maximum width
+        elevation: 0,
+        backgroundColor: "white",
+        borderRadius: 35,
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "row", // Distribute the items horizontally
+        paddingHorizontal: 20, // Adds padding to avoid the icons being too close to the edges
+      },
+    }}
+    
+    
+    >
+      <Tabs.Screen
+        name="index" // Specify the screen name here
         options={{
-          
-          tabBarIcon: ({ color }) => (
-            <FontAwesomeIcon icon={faUserGraduate} color={color} size={20} />
+          tabBarIcon: ({ focused }) => (
+            <View style={{ alignItems: "center", marginTop: -25 }}>
+              <Ionicons
+                name={focused ? "home" : "home-outline"}
+                color={focused ? "#F02A4B" : "gray"}
+                size={24}
+              />
+              <Text
+                style={{
+                  color: focused ? "#F02A4B" : "gray",
+                  fontSize: 10,
+                  marginTop: -2,
+                  textAlign: "center", // Ensure text stays centered
+                  width: 40, // Set a fixed width to ensure text fits in one line
+                }}
+                numberOfLines={1} // Ensure the text does not wrap
+              >
+                Home
+              </Text>
+            </View>
           ),
         }}
       />
-        <Tab.Screen name="Github" component={WebScreen} 
+      <Tabs.Screen
+        name="explore" // Specify the screen name here
         options={{
-          
-          tabBarIcon: ({ color }) => (
-            <FontAwesomeIcon icon={faGithub} color={color} size={20} />
+          tabBarIcon: ({ focused }) => (
+            <View style={{ alignItems: "center", marginTop: -25 }}>
+              <Ionicons
+                name={focused ? "search" : "search-outline"}
+                color={focused ? "#F02A4B" : "gray"}
+                size={24}
+              />
+              <Text
+                style={{
+                  color: focused ? "#F02A4B" : "gray",
+                  fontSize: 10,
+                  marginTop: -2,
+                  textAlign: "center", // Ensure text stays centered
+                  width: 40, // Set a fixed width to ensure text fits in one line
+                }}
+                numberOfLines={1} // Ensure the text does not wrap
+              >
+                Map
+              </Text>
+            </View>
           ),
         }}
       />
-      </Tab.Navigator>
-    </NavigationContainer>
+      <Tabs.Screen
+        name="add" // Specify the screen name here
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View
+              style={{
+                alignItems: "center",
+                justifyContent: "center",
+                height: 56,
+                width: 56,
+                borderRadius: 999,
+                backgroundColor: "#F02A4B",
+                marginBottom: 70,
+              }}
+            >
+              <Ionicons name="add" color="white" size={24} />
+            </View>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="like" // Specify the screen name here
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View style={{ alignItems: "center", marginTop: -25 }}>
+              <Ionicons
+                name={focused ? "heart" : "heart-outline"}
+                color={focused ? "#F02A4B" : "gray"}
+                size={24}
+              />
+              <Text
+                style={{
+                  color: focused ? "#F02A4B" : "gray",
+                  fontSize: 10,
+                  marginTop: -2,
+                  textAlign: "center",
+                  width: 40, // Ensure enough width for text
+                }}
+                numberOfLines={1}
+              >
+                Data
+              </Text>
+            </View>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="list" // Specify the screen name here
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <View style={{ alignItems: "center", marginTop: -25 }}>
+              <Ionicons
+                name={focused ? "person" : "person-outline"}
+                color={focused ? "#F02A4B" : "gray"}
+                size={24}
+              />
+              <Text
+                style={{
+                  color: focused ? "#F02A4B" : "gray",
+                  fontSize: 10,
+                  marginTop: -2,
+                  textAlign: "center",
+                  width: 40, // Ensure enough width for text
+                }}
+                numberOfLines={1}
+              >
+                Author
+              </Text>
+            </View>
+          ),
+        }}
+      />
+    </Tabs>
   );
 }
