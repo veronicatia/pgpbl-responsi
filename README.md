@@ -19,6 +19,8 @@ Aplikasi ini dibangun menggunakan berbagai teknologi dan komponen utama, di anta
 - **React Native**: Digunakan untuk membangun aplikasi mobile yang dapat dijalankan di perangkat Android dan iOS dengan satu basis kode.
 - **Leaflet**: Digunakan untuk menampilkan peta interaktif dalam aplikasi web, memungkinkan pengguna untuk melihat lokasi hewan peliharaan yang tersedia untuk adopsi pada peta.
 - **Google Maps**: Digunakan dalam aplikasi mobile untuk menampilkan peta dan lokasi terdekat hewan peliharaan yang dapat diadopsi, serta untuk memberi petunjuk arah kepada pengguna.
+- **Expo**: Digunakan untuk mempercepat pembangunan aplikasi mobile, memungkinkan pengujian langsung di perangkat, dan mendukung pengembangan lintas platform (Android dan iOS).
+
 
 ## Sumber Data
 Sumber data aplikasi ini berasal dari data pribadi yang dikumpulkan langsung dari pemilik hewan peliharaan yang ingin mengadopsikan hewan mereka. Data yang digunakan mencakup:
