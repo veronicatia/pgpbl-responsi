@@ -1,7 +1,7 @@
 import React from 'react';
 import MapView from 'react-native-maps';
 import { StyleSheet, View } from 'react-native';
-import DataListWithMap from '../../components/DataListWithMap';
+import DataListWithMap from '../../DataListWithMap';
 
 export default function App() {
   return (
