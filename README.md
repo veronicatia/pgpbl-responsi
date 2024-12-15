@@ -34,13 +34,14 @@ Semua data yang dikumpulkan dilindungi dan digunakan hanya untuk tujuan aplikasi
 ## Tangkapan Layar
 1. Home <br>
    <img src="https://github.com/user-attachments/assets/3d4ffd6c-fbae-4e70-8d8b-db8be0ebccd1" width="200" />
-2. Map
+2. Map <br>
    <img src="https://github.com/user-attachments/assets/44c72600-f4c4-4913-ae51-7b2b0eb73b83" width="200" />
-3. Add
+   <img src="https://github.com/user-attachments/assets/cc7f020b-9bcc-4b2c-96d6-d2d5c45e5f52" width="200" />
+3. Add<br>
    <img src="https://github.com/user-attachments/assets/bce637fd-979d-4c35-a0c6-cd2cfe3868b4" width="200" />
-4. List
+4. List<br>
    <img src="https://github.com/user-attachments/assets/27e42cc4-cd03-4f34-842b-416151a756a2" width="200" />
-5. Edit
+5. Edit<br>
    <img src="https://github.com/user-attachments/assets/3c2018c6-7e52-49d0-affc-e7c06ce98409" width="200" />
-6. Profile
+6. Profile<br>
    <img src="https://github.com/user-attachments/assets/eb017875-58d5-4f00-9854-299e32b232c6" width="200" />
