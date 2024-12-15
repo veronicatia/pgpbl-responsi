@@ -1,6 +1,6 @@
 import { View, StyleSheet } from 'react-native';
 import React from 'react';
-import Profile from '../../components/Profile'; // Importing Profile component
+import Profile from '../../Profile'; // Importing Profile component
 
 function ProfileScreen() { // Renamed function to avoid conflict
     return (
