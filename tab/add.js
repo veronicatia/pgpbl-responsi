@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Createdata from '../../components/Createdata';
+import Createdata from '../../Createdata';
 
 const Add = () => {
   return (
