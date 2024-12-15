@@ -37,6 +37,7 @@ Semua data yang dikumpulkan dilindungi dan digunakan hanya untuk tujuan aplikasi
 2. Map <br>
    <img src="https://github.com/user-attachments/assets/44c72600-f4c4-4913-ae51-7b2b0eb73b83" width="200" />
    <img src="https://github.com/user-attachments/assets/cc7f020b-9bcc-4b2c-96d6-d2d5c45e5f52" width="200" />
+   <img src="https://github.com/user-attachments/assets/e8bd2e6b-f315-4467-83fb-8e8d46815a2c" width="200" />
 3. Add<br>
    <img src="https://github.com/user-attachments/assets/bce637fd-979d-4c35-a0c6-cd2cfe3868b4" width="200" />
 4. List<br>
