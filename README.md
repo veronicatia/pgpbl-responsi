@@ -28,6 +28,7 @@ Sumber data aplikasi ini berasal dari data pribadi yang dikumpulkan langsung dar
 - **Data Profil Pengguna**: Informasi tentang pengguna yang mendaftar untuk mengadopsi atau memberikan hewan peliharaan untuk adopsi, seperti nama, lokasi, dan preferensi adopsi.
 - **Data Hewan Peliharaan**: Informasi tentang hewan peliharaan yang tersedia untuk adopsi, termasuk nama, usia, jenis, foto, dan deskripsi.
 - **Lokasi Pengguna dan Hewan Peliharaan**: Data lokasi yang digunakan untuk menampilkan hewan peliharaan yang tersedia berdasarkan kedekatan dengan pengguna, serta memberikan petunjuk arah kepada pengguna untuk mengunjungi lokasi hewan peliharaan.
+-**Peta Leaflet dan Google Maps**: Data peta yang digunakan untuk menampilkan lokasi hewan peliharaan yang tersedia untuk adopsi dan memberikan petunjuk arah kepada pengguna menggunakan Leaflet dan Google Maps.
 
 Semua data yang dikumpulkan dilindungi dan digunakan hanya untuk tujuan aplikasi adopsi hewan peliharaan.
 
