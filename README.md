@@ -11,6 +11,7 @@ Aplikasi ini dibangun menggunakan berbagai teknologi dan komponen utama, di anta
 
 - **Java**: Digunakan dalam pengembangan beberapa bagian backend aplikasi, terutama untuk menangani logika aplikasi dan integrasi dengan sistem lain.
 - **Node.js**: Digunakan untuk membangun server dan API yang menangani permintaan data, seperti informasi tentang hewan peliharaan dan detail adopsi.
+- **JSON Server**: Digunakan sebagai server API sederhana berbasis file JSON untuk menyimpan data sementara, seperti daftar hewan peliharaan, detail profil pengguna, dan informasi adopsi, yang memudahkan pengembangan dan pengujian aplikasi.
 - **JavaScript**: Digunakan untuk pengembangan frontend aplikasi, terutama dalam membangun antarmuka pengguna dinamis di web.
 - **HTML**: Digunakan untuk membuat struktur dasar halaman web untuk aplikasi, seperti halaman utama, profil hewan peliharaan, dan halaman kontak.
 - **Android Studio**: Platform pengembangan yang digunakan untuk membangun versi Android dari aplikasi, menyediakan antarmuka pengguna dan interaksi pengguna di perangkat Android.
